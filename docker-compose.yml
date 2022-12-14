@@ -13,7 +13,7 @@ services:
     networks:
       - suzan97-network
     depends_on:
-      - backend
+      - mongo_db
 
   backend:
     build:
@@ -26,7 +26,7 @@ services:
     networks:
       - suzan97-network
     depends_on:
-      - mongo-db
+      - mongo_db
 
   mongo_db:
     container_name: mongo_db
