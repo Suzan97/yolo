@@ -28,10 +28,26 @@ services:
       - mongo-db
 
   mongo_db:
-    container_name: db_mongo
+    container_name: mongo_db
     image: mongo:latest
     volumes:
       - mongo_db:/data/db
-  
+    ports:
+      -'27017:27017'
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME: user
+      - MONGO_INITDB_ROOT_PASSWORD: password
+    networks:
+      - suzan97-network
+    
+
+networks:
+  suzan97-network:
+  driver: bridge
+
+volumes:
+  mongo_db: {}
+
+
   
 
