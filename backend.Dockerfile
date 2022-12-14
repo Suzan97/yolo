@@ -6,6 +6,6 @@ COPY backend/package*.json .
 
 RUN npm ci
 
-COPY . .  
+COPY  backend/. 
 
 CMD ["npm", "start"]

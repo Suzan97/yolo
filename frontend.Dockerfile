@@ -6,6 +6,6 @@ COPY client/package*.json .
 
 RUN npm ci
 
-COPY . .  
+COPY client/ .
 
 CMD ["npm", "start"]
