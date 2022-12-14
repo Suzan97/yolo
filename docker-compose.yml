@@ -12,7 +12,7 @@ services:
     networks:
       - suzan97-network
     depends_on:
-      - mongo-db
+      - backend
 
   backend:
     build:
@@ -29,14 +29,14 @@ services:
 
   mongo_db:
     container_name: mongo_db
-    image: mongo:latest
+    image: mongo
     volumes:
       - mongo_db:/data/db
     ports:
       - '27017:27017'
     environment:
-        MONGO_INITDB_ROOT_USERNAME: user
-        MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
     networks:
       - suzan97-network
     
