@@ -2,9 +2,9 @@ FROM node:alpine
 
 WORKDIR /yolo
 
-COPY client/package*.json .
+COPY client/package*.json ./
 
-RUN npm ci
+RUN npm install
 
 COPY client/ .
 
