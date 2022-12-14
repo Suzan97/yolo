@@ -13,7 +13,7 @@ services:
     networks:
       - suzan97-network
     depends_on:
-      - mongo_db
+      - backend
 
   backend:
     build:
