@@ -1,9 +1,37 @@
 version: '3.9'
 
 services:
+  client:
+    build:
+      context: .
+      dockerfile: frontend.Dockerfile
+    image: suzan97/api:1
+    container_name: frontendcontainer
+    ports:
+      -'8000:8000'
+    networks:
+      - suzan97-network
+    depends_on:
+      - mongo-db
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend.Dockerfile
+    image: suzan97/api:1
+    container_name: backendcontainer
+    ports:
+      -'5000:50000'
+    networks:
+      - suzan97-network
+    depends_on:
+      - mongo-db
+
   mongo_db:
     container_name: db_mongo
     image: mongo:latest
     volumes:
       - mongo_db:/data/db
+  
+  
 
