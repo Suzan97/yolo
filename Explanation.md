@@ -1,6 +1,6 @@
 # EXPLANATIONS
 
-- Fork and clone
+- Fork and clone https://github.com/Suzan97/yolo.git
 - Run docker using to install image and create a container
 
     `docker compose up --build`
