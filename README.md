@@ -37,7 +37,9 @@ Make sure that you have the following installed:
  `vagrant ssh`
  
  
- The vagrantfile created is edited to include ansible configurations then a `playbook.yaml` file is created.
+ The vagrantfile created is edited to include ansible configurations then a `playbook.yaml` file is created.It includes hosts, tasks and variables
+ 
+ In order to run the playbook on our VM we use `vagrant provision`
  
  
  
