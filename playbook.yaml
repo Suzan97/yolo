@@ -1,0 +1,17 @@
+---
+-name: Yolo 
+ host: all
+ become: true
+ vars:
+  box: ubuntu/focal64
+ tasks:
+  - name: clone github repo
+    include_role:
+      name: git
+  - name: start the vagrant environment
+    include_role:
+      name: vagrant
+  - name: Use docker compose
+    include_role:
+    name: docker
+  
