@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app:yolo
+        app: yolo
   spec:
     containers:
       - name: yolo
