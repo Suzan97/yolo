@@ -29,8 +29,8 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    apps: yolo-frontend
+    app: yolo-frontend
   ports:
-    -protocol: TCP
-    port: 3000
-  type: NodePort
+    - protocol: TCP
+      port: 3000
+ 
