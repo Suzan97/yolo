@@ -4,11 +4,11 @@ metadata:
   name: yolo-frontend
   labels:
     app: yolo
-    component: back
+    component: front
 spec:
   selector:
   matchLabels:
-    app: yolo
+    component: front
   replica: 3
   template:
     metadata:
