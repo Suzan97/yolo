@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   name: yolo-backend
   labels:
-    app:yolo
-    component:back
+    app: yolo
+    component: back
 spec:
   selector:
   matchLabel:
