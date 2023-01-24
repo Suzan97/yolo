@@ -15,7 +15,7 @@ spec:
       - name: yolo
         image: suzan97/backend:v1
         ports:
-          -containerPorts: 5000
+          - containerPort: 5000
 
 ---
 apiVersion: v1

@@ -19,7 +19,7 @@ spec:
       - name: yolo
         image: suzan97/client:v1
         ports:
-          -containerPorts: 3000
+          - containerPort: 3000
 
 ---
 apiVersion: v1
