@@ -15,12 +15,12 @@ spec:
       labels:
         app: yolo
         component: back
-  spec:
-    containers:
-      - name: yolo
-        image: suewaf/yolo-backend
-        ports:
-          - containerPort: 5000
+    spec:
+      containers:
+        - name: yolo
+          image: suewaf/yolo-backend
+          ports:
+            - containerPort: 5000
 
 ---
 apiVersion: v1
