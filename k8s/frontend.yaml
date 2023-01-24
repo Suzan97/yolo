@@ -26,7 +26,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: yolo-frontend
-spec:
+specs:
   type: LoadBalancer
   selector:
     app: yolo-frontend
