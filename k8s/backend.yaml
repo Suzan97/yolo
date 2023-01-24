@@ -12,9 +12,9 @@ spec:
   replicas: 3
   template:
     metadata:
-    labels:
-      app: yolo
-      component: back
+      labels:
+        app: yolo
+        component: back
   spec:
     containers:
       - name: yolo
