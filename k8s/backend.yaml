@@ -7,8 +7,8 @@ metadata:
     component: back
 spec:
   selector:
-  matchLabels:
-    component: back
+    matchLabels:
+      app: yolo
   replica: 3
   specs:
     containers:

@@ -7,8 +7,8 @@ metadata:
     component: front
 spec:
   selector:
-  matchLabels:
-    component: front
+    matchLabels:
+      app: yolo
   replica: 3
   template:
     metadata:
