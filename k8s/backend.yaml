@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: yolo
-  replica: 3
+  replicas: 3
   spec:
     containers:
       - name: yolo
