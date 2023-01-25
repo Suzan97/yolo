@@ -2,26 +2,26 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: yolo-frontend
-  labels:
-    app: yolo
-    component: front
 spec:
+  replicas: 3
   selector:
     matchLabels:
-      component: front
-      app: yolo
-  replicas: 3
+      component: frontend
   template:
     metadata:
       labels:
-        app: yolo
-        component: front
+        app: yolo-frontend
+        component: frontend
     spec:
       containers:
         - name: frontendyolo
           image: suewaf/yolo-frontend:yolo-frontend
+          tty: true
           ports:
             - containerPort: 3000
+              protocol: TCP
+          resource:
+          command: ["npm", "start"]
 
 ---
 apiVersion: v1
