@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       component: front
+      app: yolo
   replicas: 3
   template:
     metadata:
