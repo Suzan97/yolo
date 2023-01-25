@@ -44,12 +44,13 @@ Make sure that you have the following installed:
  ### Kubernetes task
 
 Make sure you have the following
-[google cloud account](https://cloud.google.com/cloud-console/?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-en-dr-bkws-all-all-trial-e-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574627824862-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Management%20Tools%20~%20Cloud%20Console%23v2-KWID_43700053286075712-kwd-55675752867-userloc_1009824&utm_term=KW_google%20cloud%20console-NET_g-PLAC_&gclid=EAIaIQobChMI-vml8Pfi_AIVboxoCR3tQA2PEAAYASAAEgJItvD_BwE&gclsrc=aw.ds)
+- [google cloud account](https://cloud.google.com/cloud-console/?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-en-dr-bkws-all-all-trial-e-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574627824862-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Management%20Tools%20~%20Cloud%20Console%23v2-KWID_43700053286075712-kwd-55675752867-userloc_1009824&utm_term=KW_google%20cloud%20console-NET_g-PLAC_&gclid=EAIaIQobChMI-vml8Pfi_AIVboxoCR3tQA2PEAAYASAAEgJItvD_BwE&gclsrc=aw.ds)
 
-[google sdk](https://cloud.google.com/sdk/docs/install) is installed
+- [google sdk](https://cloud.google.com/sdk/docs/install) is installed
 
-and kubernetes
+- and kubernetes
 
+## Steps to go about
  
  
  
