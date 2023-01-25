@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: yolo-k8sbackend
+  name: yolo-backend
   labels:
     app: yolo
     component: back
@@ -14,11 +14,10 @@ spec:
     metadata:
       labels:
         app: yolo
-        component: back
     spec:
       containers:
         - name: yolo
-          image: suewaf/yolo-backend
+          image: suzan97/backend:v1
           ports:
             - containerPort: 5000
 
@@ -26,7 +25,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: yolo-k8sbackend
+  name: yolo-backend
   labels:
     app: yolo
 spec:
