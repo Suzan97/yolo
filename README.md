@@ -65,6 +65,7 @@ Make sure you have the following
 `kubectl get pods`
 
 ![Snippet of the pods](https://ibb.co/6HJjK9G)
+
 ![snippet of services](https://ibb.co/9YmQs1D)
 
 Link to this [task](http://34.28.159.77:3000/)
