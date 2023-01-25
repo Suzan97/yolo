@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: yolo
-          image: suewaf/yolo-backend
+          image: suzan97/backend:v1
           ports:
             - containerPort: 5000
 
