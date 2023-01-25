@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: yolo
+        component: front
     spec:
       containers:
         - name: frontendyolo
