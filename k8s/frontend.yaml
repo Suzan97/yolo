@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: yolo
+      component: front
   replicas: 3
   template:
     metadata:
@@ -16,7 +16,7 @@ spec:
         app: yolo
     spec:
       containers:
-        - name: yolo
+        - name: frontendyolo
           image: suewaf/yolo-frontend:yolo-frontend
           ports:
             - containerPort: 3000
@@ -33,5 +33,7 @@ spec:
   ports:
     - port: 3000
       protocol: TCP
+      targetPort: 3000
+      name: http
       
  
