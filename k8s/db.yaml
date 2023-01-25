@@ -10,3 +10,5 @@ spec:
   selector:
     app: mongodb-service
     role: mongo
+status:
+  loadBalancer: {}
