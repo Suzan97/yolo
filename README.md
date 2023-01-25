@@ -64,9 +64,9 @@ Make sure you have the following
 
 `kubectl get pods`
 
-![Snippet of the pods](https://ibb.co/6HJjK9G)
+[![H0uMBwJ.md.jpg](https://iili.io/H0uMBwJ.md.jpg)](https://freeimage.host/i/H0uMBwJ)
 
-![snippet of services](https://ibb.co/9YmQs1D)
+[![H0uMqua.md.jpg](https://iili.io/H0uMqua.md.jpg)](https://freeimage.host/i/H0uMqua)
 
 Link to this [task](http://34.28.159.77:3000/)
 
