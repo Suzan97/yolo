@@ -51,6 +51,18 @@ Make sure you have the following
 - and kubernetes
 
 ## Steps to go about
+
+- Create a folder called `k8s` in order to perform kubernetes operations.
+- Create a deployment and service file that you'll use to manage a cluster
+
+## Command to use
+
+`kubectl apply -f .`
+
+`kubectl get pods`
+
+
+
  
  
  
